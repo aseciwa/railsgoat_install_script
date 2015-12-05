@@ -2,10 +2,10 @@
 cd ~
 
 # add PGP key, download rvm, install Ruby
-gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-curl -L https://get.rvm.io | bash -s stable --autolibs=3 --ruby=2.1.2
-source /usr/local/rvm/scripts/rvm
-rvm install ruby-2.1.5
+# gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+# curl -L https://get.rvm.io | bash -s stable --autolibs=3 --ruby=2.1.2
+# source /usr/local/rvm/scripts/rvm
+# rvm install ruby-2.1.5
 
 # download Railsgoat, install it using Bundler
 git clone https://github.com/OWASP/railsgoat.git
