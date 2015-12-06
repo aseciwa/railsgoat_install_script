@@ -26,6 +26,6 @@ rake db:setup
 sleep 10
 
 # run Railsgoat, wait for it to configure, launch browser
-rails server > /dev/null &
+rails server -p 8080 > /dev/null &
 sleep 15
-firefox http://127.0.0.1:3000
+firefox http://127.0.0.1:8080
